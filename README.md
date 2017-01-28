@@ -122,11 +122,11 @@ Scrypt is used to derive 80 bytes from the password, which are used for:
 By default, Scrypt uses these parameters `N = (1 << 20)`, `R = 16`, `P = 1`.
 
 
-#### Pipeline
+## Pipeline
 
 fcrypt implements the following pipeline:
 
-##### Encryption
+#### Encryption
 
 ```
 1. Generate a salt
@@ -143,7 +143,7 @@ fcrypt implements the following pipeline:
 5. At last, seek to the beginning of the file and write all headers
 ```
 
-##### Decryption
+#### Decryption
 
 ```
 1. Type the password
