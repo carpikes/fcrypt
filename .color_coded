@@ -1,0 +1,7 @@
+-x
+c++
+-D_FORTIFY_SOURCE=2
+-Iinclude
+-Wall
+-Werror
+-Wextra
